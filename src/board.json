@@ -1,0 +1,152 @@
+[
+	{
+		"category": "The U.S. Constitution",
+		"queries": {
+			"200": {
+				"question": "This is also known as the first ten amendments of the U.S. Constitution",
+				"answer": "What is the Bill of Rights?"
+			},
+			"400": {
+				"question": "When the U.S. Supreme Court rules against a law, deeming it unconstitutional, it exercises this basic principle.",
+				"answer": "What are Checks and Balances?"
+			},
+			"600": {
+				"question": "This is the number of states that would ratify the original U.S. Constitution.",
+				"answer": "What is Nine?"
+			},
+			"800": {
+				"question": "This is the concept that rests all political power with the people.",
+				"answer": "What is Popular Sovreignity?"
+			},
+			"1000": {
+				"question": "\"Protection against arbitrary searches and seizures without probable cause.\"",
+				"answer": "What is the Fourth Amendment?"
+			}
+		}
+	},
+	{
+		"category": "Congressional Madness",
+		"queries": {
+			"200": {
+				"question": "After each census, congressional seats are this",
+				"answer": "What is reapportioned?"
+			},
+			"400": {
+				"question": "Forming districts in such a way that it is advantageous to the state legislature's controlling party.",
+				"answer": "What is Gerrymandering?"
+			},
+			"600": {
+				"question": "A kind of \"code of conduct\" of congress, however it does not have the force of law.",
+				"answer": "What is a Resolution?"
+			},
+			"800": {
+				"question": "Much like Bill Clinton and Andrew Johnson, this president faced impeachment and resigned.",
+				"answer": "Who is Nixon?"
+			},
+			"1000": {
+				"question": "This unwritten rule of both houses of congress ensures that the longest serving members get the best positions.",
+				"answer": "What is the Seniority Rule?"
+			}
+		}
+	},
+	{
+		"category": "When I'm The President",
+		"queries": {
+			"200": {
+				"question": "",
+				"answer": ""
+			},
+			"400": {
+				"question": "",
+				"answer": ""
+			},
+			"600": {
+				"question": "",
+				"answer": ""
+			},
+			"800": {
+				"question": "",
+				"answer": ""
+			},
+			"1000": {
+				"question": "",
+				"answer": ""
+			}
+		}
+	},
+	{
+		"category": "The Birth of a Nation",
+		"queries": {
+			"200": {
+				"question": "",
+				"answer": ""
+			},
+			"400": {
+				"question": "",
+				"answer": ""
+			},
+			"600": {
+				"question": "",
+				"answer": ""
+			},
+			"800": {
+				"question": "",
+				"answer": ""
+			},
+			"1000": {
+				"question": "",
+				"answer": ""
+			}
+		}
+	},
+	{
+		"category": "Back to the Motherland",
+		"queries": {
+			"200": {
+				"question": "",
+				"answer": ""
+			},
+			"400": {
+				"question": "",
+				"answer": ""
+			},
+			"600": {
+				"question": "",
+				"answer": ""
+			},
+			"800": {
+				"question": "",
+				"answer": ""
+			},
+			"1000": {
+				"question": "",
+				"answer": ""
+			}
+		}
+	},
+	{
+		"category": "Blood on the Battlefield",
+		"queries": {
+			"200": {
+				"question": "",
+				"answer": ""
+			},
+			"400": {
+				"question": "",
+				"answer": ""
+			},
+			"600": {
+				"question": "",
+				"answer": ""
+			},
+			"800": {
+				"question": "",
+				"answer": ""
+			},
+			"1000": {
+				"question": "",
+				"answer": ""
+			}
+		}
+	}
+]

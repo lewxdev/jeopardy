@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "Swiss 911";
+    src: url("./font/swiss-911.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ITC Korinna";
+    src: url("./font/itc-korinna.ttf") format("truetype");
+}
+
+:root {
+	/* Colors */
+	--background-color: #131212;
+	--cell-inner-color: #071174;
+	--cell-outer-color: #030833;
+	--modal-inner-color: #14177F;
+	--modal-outer-color: #080933;
+	--cell-category-color: #FFFFFF;
+	--cell-query-color: #D69F4C;
+	--cell-shadow-color:  #141414;
+
+	/* Counts */
+	--category-count: 6;
+	--query-count: 5;
+	--row-count: calc(var(--query-count) + 1);
+
+	/* Sizing */
+	--cell-margin: 6px;
+	--cell-border-radius: 16px;
+	--col-height: calc(100vh / var(--row-count));
+}
+
+* {
+	color: var(--cell-category-color)
+}
+
+body, html {
+    background: var(--background-color);
+    user-select: none;
+    width: 100%;
+}
+
+body, html, .row, .row .col {
+	margin: 0;
+	padding: 0;
+}
+
+.row .col {
+	height: var(--col-height);
+}
+
+.modal {
+	background: radial-gradient(100% 100%, var(--modal-inner-color), var(--modal-outer-color));
+	height: 100%;
+	width: 100%;
+	max-height: 100%;
+	margin: 0;
+	padding: 0 10%;
+	border-radius: 0;
+	font-family: "ITC Korinna";
+    text-align: center;
+    text-shadow: 6px 6px #141414,
+                 5px 5px #141414,
+                 4px 4px #141414,
+                 3px 3px #141414,
+                 2px 2px #141414,
+                 1px 1px #141414;
+    font-size: 64pt;
+	color: white;
+}
+
+.modal-content {
+	height: inherit;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.board .cell {
+	height: calc(100% - calc(var(--cell-margin) * 2));
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: radial-gradient(100% 100%, var(--cell-inner-color), var(--cell-outer-color));
+	font-family: "Swiss 911";
+	margin: var(--cell-margin);
+	border-radius: var(--cell-border-radius);
+}
+
+.board .cell.category {
+	padding: 0 15%;
+	font-size: 32pt;
+	font-weight: normal;
+	text-align: center;
+	text-shadow: 5px 5px var(--cell-shadow-color),
+				 4px 4px var(--cell-shadow-color),
+				 3px 3px var(--cell-shadow-color),
+				 2px 2px var(--cell-shadow-color),
+				 1px 1px var(--cell-shadow-color);
+}
+
+.board .cell.query {
+	font-size: 72pt;
+	text-shadow: 10px 10px var(--cell-shadow-color),
+				  9px  9px var(--cell-shadow-color),
+				  8px  8px var(--cell-shadow-color),
+				  7px  7px var(--cell-shadow-color),
+				  6px  6px var(--cell-shadow-color),
+				  5px  5px var(--cell-shadow-color),
+				  4px  4px var(--cell-shadow-color),
+				  3px  3px var(--cell-shadow-color),
+				  2px  2px var(--cell-shadow-color),
+				  1px  1px var(--cell-shadow-color);
+    color: var(--cell-query-color);
+}
+
+.board .cell.query:hover {
+	color: var(--cell-category-color);
+	cursor: pointer;
+}
